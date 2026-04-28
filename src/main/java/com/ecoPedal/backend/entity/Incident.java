@@ -1,0 +1,1 @@
+package com.ecoPedal.backend.entity;public class Incident {}

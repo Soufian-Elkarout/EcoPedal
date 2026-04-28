@@ -1,0 +1,1 @@
+package com.ecoPedal.backend.entity.enums;public enum TypeEntite {    VELO,    STATION,    UTILISATEUR,    RECOMPENSE,    DEFI}
