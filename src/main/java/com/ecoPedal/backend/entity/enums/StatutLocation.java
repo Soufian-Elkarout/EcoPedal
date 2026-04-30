@@ -1,0 +1,1 @@
+package com.ecoPedal.backend.entity.enums;public enum StatutLocation {    EN_COURS,    COMPLETEE,    ANNULEE}
