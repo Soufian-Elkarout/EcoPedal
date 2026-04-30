@@ -1,0 +1,1 @@
+package com.ecoPedal.backend.entity.enums;public enum StatutPaiement {    EN_ATTENTE,    COMPLETE,    ECHOUE,    REMBOURSE}

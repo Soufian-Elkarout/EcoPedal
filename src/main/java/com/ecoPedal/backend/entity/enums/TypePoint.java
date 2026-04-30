@@ -1,0 +1,1 @@
+package com.ecoPedal.backend.entity.enums;public enum TypePoint {    GAIN_DEFI,    DEPENSE_ECHANGE}
