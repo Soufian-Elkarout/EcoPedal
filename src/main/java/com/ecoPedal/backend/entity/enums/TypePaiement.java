@@ -1,0 +1,1 @@
+package com.ecoPedal.backend.entity.enums;public enum TypePaiement {    CAUTION,          // montant bloqué au moment de la réservation    FINAL,           //  Montant réel payé à la fin de la location    REMBOURSEMENT   // Montant rendu à l'utilisateur}
