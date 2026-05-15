@@ -1,4 +1,4 @@
-package com.ecoPedal.backend.services;
+package com.ecoPedal.backend.service;
 
 import com.ecoPedal.backend.entity.Station;
 import com.ecoPedal.backend.repository.StationRepository;
