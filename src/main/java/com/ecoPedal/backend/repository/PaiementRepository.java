@@ -15,6 +15,10 @@ public interface PaiementRepository extends JpaRepository<Paiement, Long> {
     // Trouver la caution liée à une réservation
     Optional<Paiement> findByReservationId(Long reservationId);
 
+    boolean existsByReservationId(Long reservationId);
+
+    List<Paiement> findByUtilisateurIdOrderByDatePaiementDesc(Long utilisateurId);
+
     // Trouver le paiement final lié à une location
     Optional<Paiement> findByLocationId(Long locationId);
 }

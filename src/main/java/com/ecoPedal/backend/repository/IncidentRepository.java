@@ -10,7 +10,7 @@ public interface IncidentRepository extends JpaRepository<Incident, Long> {
 
     List<Incident> findByStatut(String statut);
 
-    List<Incident> findByVeloId(Long veloId);
+    List<Incident> findByVelo_Id(Long veloId);
 
     List<Incident> findByUtilisateurId(Long userId);
 }
